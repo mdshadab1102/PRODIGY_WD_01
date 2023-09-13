@@ -243,6 +243,9 @@ section img{
 
 /*       main section starts */
 
+.main{
+	padding: var(--fs2) 0;
+}
 .text{
 	text-align: center;
 	padding: var(--fs2) 0;
