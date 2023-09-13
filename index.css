@@ -166,9 +166,6 @@ section img{
 .port .img img{
 	width: 22rem;
 	height: 12.5rem;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
 	border: 1px solid var(--ternarycolor);
 	border-radius: 5px;
 }
@@ -203,7 +200,10 @@ section img{
 	border-bottom: 1px solid var(--ternarycolor);
 	padding: var(--fs2) var(--fs2);
 	}
-	.divimg img,
+	.divimg img{
+		width: 20rem;
+		height: 10.5rem;
+	}
 	.port .img img{
 		width: 20rem;
 		height: 10.5rem;
