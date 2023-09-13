@@ -196,9 +196,7 @@ section img{
 		font-size: var(--fs1h);
 	}
 	section{
-	width: 100%;
-	border-bottom: 1px solid var(--ternarycolor);
-	padding: var(--fs2) var(--fs2);
+		padding: var(--fs2);
 	}
 	.divimg img{
 		width: 20rem;
@@ -243,13 +241,6 @@ section img{
 
 /*       main section starts */
 
-.main{
-	padding: var(--fs2) 0;
-}
-.text{
-	text-align: center;
-	padding: var(--fs2) 0;
-}
 
 /*         main section ends */
 
