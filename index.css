@@ -343,3 +343,101 @@ section img{
 
 /*   ----------contact page ends-------------------
    -------------------------------------------- */
+
+.contact{
+	text-align: center;
+}
+
+.contact a:hover{
+	color: var(--secondarycolor);
+	text-decoration: underline;
+}
+.contact-container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 2rem;
+	padding-bottom: 3rem;
+}
+
+.tajcontact{
+	padding: 2rem;
+}
+
+.map{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tajcontact img{
+	width: 22rem;
+	height: 12.5rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+#sen{
+	padding: 0 4rem;
+}
+.mail{
+	display: flex;
+	justify-content: space-around;
+}
+
+.form{
+	text-align: center;
+}
+.form .contact-input{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+.form .contact-input input,
+.form .contact-input textarea{
+	outline: none;
+	border: none;
+	background: transparent;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	margin: 2rem 1rem;
+	width: 22rem;
+	font-size: 16px;
+}
+
+.form .submit{
+	width: 8rem;
+	height: 50px;
+	border: 1px solid #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translateX(42%);
+}
+.form .submit a{
+	font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.form .submit:hover{
+	background: var(--secondarycolor);
+}
+
+.form .submit:hover a{
+	color: var(--primarycolorb);
+
+}
+
+
+@media (max-width: 57em){
+	.contact-container{
+		flex-direction: column;
+	}
+}
+
