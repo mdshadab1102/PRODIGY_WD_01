@@ -360,9 +360,9 @@ section img{
 	padding-bottom: 3rem;
 }
 
-.tajcontact{
+/* .tajcontact{
 	padding: 2rem;
-}
+} */
 
 .map{
 	display: flex;
@@ -406,7 +406,7 @@ section img{
 	color: #fff;
 	border-bottom: 1px solid #fff;
 	margin: 2rem 1rem;
-	width: 22rem;
+	width: 20rem;
 	font-size: 16px;
 }
 
@@ -421,11 +421,11 @@ section img{
 }
 .form .submit a{
 	font-size: 16px;
-    font-weight: 700;
-    line-height: 22.4px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    margin: 0 auto;
+   font-weight: 700;
+   line-height: 22.4px;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   margin: 0 auto;
 }
 
 .form .submit:hover{
@@ -441,10 +441,14 @@ section img{
 @media (max-width: 57em){
 	.contact-container{
 		flex-direction: column;
+		gap: 0;
 	}
 	.tajcontact .img img{
 		width: 20rem;
 		height: 10.5rem;
+	}
+	.mail{
+		flex-direction: column;
 	}
 }
 
