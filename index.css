@@ -439,5 +439,9 @@ section img{
 	.contact-container{
 		flex-direction: column;
 	}
+	.tajcontact img{
+		width: 20rem;
+		height: 10.5rem;
+	}
 }
 
