@@ -369,7 +369,10 @@ section img{
 	justify-content: center;
 	align-items: center;
 }
-.tajcontact img{
+..tajcontact .img{
+	overflow: hidden;
+}
+.tajcontact .img img{
 	width: 22rem;
 	height: 12.5rem;
 	background-repeat: no-repeat;
@@ -439,7 +442,7 @@ section img{
 	.contact-container{
 		flex-direction: column;
 	}
-	.tajcontact img{
+	.tajcontact .img img{
 		width: 20rem;
 		height: 10.5rem;
 	}
